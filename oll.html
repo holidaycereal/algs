@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OLL · alena algs</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body>
+    <h1>OLL</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Case</th>
+          <th>Algs</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td><img src="assets/oll1.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U2' (R2' F R F') U2 (R' F R F')</p>
+          </td>
+          <td>
+            <p>Same as 55 but without wide moves</p>
+          </td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td><img src="assets/oll2.svg" width="105" height="105"/></td>
+          <td>
+            <p>f (U R U' R') S' (U R U' R') F'</p>
+            <p>(F R' F' R) U2 (F R' F' R2) U2' R'</p>
+          </td>
+          <td>
+            <p>Second alg is for big cubes</p>
+          </td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td><img src="assets/oll3.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' F2 R2 U2' (R' F R) U2' R2' F2 R</p>
+          </td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td><img src="assets/oll4.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' F2 R2 U2' (R' F' R) U2' R2' F2 R</p>
+          </td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td><img src="assets/oll5.svg" width="105" height="105"/></td>
+          <td>
+            <p>l' U2 L U L' U l</p>
+          </td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td><img src="assets/oll6.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U2' R' U' R U' r'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td><img src="assets/oll7.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U R' U R U2' r'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td><img src="assets/oll8.svg" width="105" height="105"/></td>
+          <td>
+            <p>l' U' L U' L' U2 l</p>
+          </td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td><img src="assets/oll9.svg" width="105" height="105"/></td>
+          <td>
+            <p>(R U R' U') R' F (R2 U R' U') F'</p>
+          </td>
+          <td>
+            <p>Inverse of 13</p>
+          </td>
+        </tr>
+        <tr>
+          <th>10</th>
+          <td><img src="assets/oll10.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U R' U (R' F R F') R U2' R'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>11</th>
+          <td><img src="assets/oll11.svg" width="105" height="105"/></td>
+          <td>
+            <p>r' (R2 U R' U R U2' R') U M'</p>
+          </td>
+          <td>
+            <p>M : (sune U)</p>
+          </td>
+        </tr>
+        <tr>
+          <th>12</th>
+          <td><img src="assets/oll12.svg" width="105" height="105"/></td>
+          <td>
+            <p>S (R' U' R U' R' U2' R) U2 S'</p>
+          </td>
+          <td>
+            <p>S : (back sune U2)</p>
+          </td>
+        </tr>
+        <tr>
+          <th>13</th>
+          <td><img src="assets/oll13.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (U R U' R2') F' R (U R U' R')</p>
+          </td>
+          <td>
+            <p>Inverse of 9</p>
+            <p>Same as 52 except for the last two U moves</p>
+          </td>
+        </tr>
+        <tr>
+          <th>14</th>
+          <td><img src="assets/oll14.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' F R U R' F' R (F U' F')</p>
+          </td>
+        </tr>
+        <tr>
+          <th>15</th>
+          <td><img src="assets/oll15.svg" width="105" height="105"/></td>
+          <td>
+            <p>r' U' r (R' U' R U) r' U r</p>
+          </td>
+        </tr>
+        <tr>
+          <th>16</th>
+          <td><img src="assets/oll16.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U r' (R U R' U') r U' r'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>17</th>
+          <td><img src="assets/oll17.svg" width="105" height="105"/></td>
+          <td>
+            <p>(F R' F' R) U (S' R U' R' S)</p>
+          </td>
+        </tr>
+        <tr>
+          <th>18</th>
+          <td><img src="assets/oll18.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U2' (R2' F R F') U2 (M' U R U' r')</p>
+          </td>
+        </tr>
+        <tr>
+          <th>19</th>
+          <td><img src="assets/oll19.svg" width="105" height="105"/></td>
+          <td>
+            <p>(S' R U R' S) U' (R' F R F')</p>
+          </td>
+        </tr>
+        <tr>
+          <th>20</th>
+          <td><img src="assets/oll20.svg" width="105" height="105"/></td>
+          <td>
+            <p>(S' R U R' S) U' (M' U R U' r')</p>
+          </td>
+        </tr>
+        <tr>
+          <th>21</th>
+          <td><img src="assets/oll21.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U R' U (R U' R' U) R U2' R'</p>
+            <p>(U) F (R U R' U')3 F'</p>
+          </td>
+          <td>
+            <p>Second alg is diag COLL</p>
+          </td>
+        </tr>
+        <tr>
+          <th>22</th>
+          <td><img src="assets/oll22.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U2' R2' U' R2 U' R2' U2' R</p>
+            <p>R2' (D' R U R' D) R U R U' R' U R U R' U R</p>
+          </td>
+          <td>
+            <p>Second alg is diag COLL</p>
+          </td>
+        </tr>
+        <tr>
+          <th>23</th>
+          <td><img src="assets/oll23.svg" width="105" height="105"/></td>
+          <td>
+            <p>R2' D' R U2 R' D R U2 R</p>
+            <p>(U2) R2 D R' U2 R D' R' U2 R'</p>
+            <p>(U2) (sune) (back sune)</p>
+            <p>R2' (D' R U R' D) R U R U' R' U' R</p>
+          </td>
+          <td>
+            <p>Non-primary algs are COLLs</p>
+          </td>
+        </tr>
+        <tr>
+          <th>24</th>
+          <td><img src="assets/oll24.svg" width="105" height="105"/></td>
+          <td>
+            <p>(r U R' U') (r' F R F')</p>
+            <p>(U2) (l' U' L U) (l F' L' F)</p>
+            <p>(U') (back antisune) (antisune)</p>
+          </td>
+          <td>
+            <p>Non-primary algs are COLLs</p>
+          </td>
+        </tr>
+        <tr>
+          <th>25</th>
+          <td><img src="assets/oll25.svg" width="105" height="105"/></td>
+          <td>
+            <p>(F R' F' r) (U R U' r')</p>
+            <p>(U) F' (r U R' U) R' F R</p>
+            <p>R U2 R D R' U2 R D' R2'</p>
+            <p>(U') R' U2 R' D' R U2 R' D R2</p>
+            <p>(U2) R U R' U (R U' R' U)2 R U2' R'</p>
+          </td>
+          <td>
+            <p>Non-primary algs are COLLs</p>
+          </td>
+        </tr>
+        <tr>
+          <th>26</th>
+          <td><img src="assets/oll26.svg" width="105" height="105"/></td>
+          <td>
+            <p>L' U' L U' L' U2 L</p>
+            <p>(U') R U2' R' U' R U' R'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>27</th>
+          <td><img src="assets/oll27.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U R' U R U2' R'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>28</th>
+          <td><img src="assets/oll28.svg" width="105" height="105"/></td>
+          <td>
+            <p>(R' F R) S (R' F' R) S'</p>
+            <p>(r U R' U') M (U R U' R')</p>
+          </td>
+          <td>
+            <p>First alg preserves block on back</p>
+            <p>Second alg preserves block on left</p>
+            <p>Both are inverses of 57</p>
+          </td>
+        </tr>
+        <tr>
+          <th>29</th>
+          <td><img src="assets/oll29.svg" width="105" height="105"/></td>
+          <td>
+            <p>r2' (D' r U r' D) r2 U' r' U' r</p>
+            <p>(U) (R U R' U') R U' R' (F' U' F) R U R'</p>
+          </td>
+          <td>
+            <p>Second alg is for big cubes</p>
+          </td>
+        </tr>
+        <tr>
+          <th>30</th>
+          <td><img src="assets/oll30.svg" width="105" height="105"/></td>
+          <td>
+            <p>r' (D' r U' r' D) r2 U' r' U r U r'</p>
+            <p>(U') F U (R U2 R' U')2 F'</p>
+          </td>
+          <td>
+            <p>Second alg is for big cubes</p>
+          </td>
+        </tr>
+        <tr>
+          <th>31</th>
+          <td><img src="assets/oll31.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' U' F U R U' R' F' R</p>
+          </td>
+          <td>
+            <p>Inverse of 40</p>
+          </td>
+        </tr>
+        <tr>
+          <th>32</th>
+          <td><img src="assets/oll32.svg" width="105" height="105"/></td>
+          <td>
+            <p>S (R U R' U') (R' F R f')</p>
+          </td>
+          <td>
+            <p>Mirror inverse of 39</p>
+          </td>
+        </tr>
+        <tr>
+          <th>33</th>
+          <td><img src="assets/oll33.svg" width="105" height="105"/></td>
+          <td>
+            <p>(R U R' U') (R' F R F')</p>
+            <p>F R U' R' U R U R' F</p>
+            <p>(U2) (L' U' L U) (L F' L' F)</p>
+          </td>
+          <td>
+            <p>Second and third algs are diag OLLCP</p>
+            <p>All are inverses of 37</p>
+          </td>
+        </tr>
+        <tr>
+          <th>34</th>
+          <td><img src="assets/oll34.svg" width="105" height="105"/></td>
+          <td>
+            <p>(f R f') U' (r' U' R U M')</p>
+          </td>
+        </tr>
+        <tr>
+          <th>35</th>
+          <td><img src="assets/oll35.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U2' (R2' F R F') R U2' R'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>36</th>
+          <td><img src="assets/oll36.svg" width="105" height="105"/></td>
+          <td>
+            <p>L' U' L U' L' U L U (L F' L' F)</p>
+          </td>
+          <td>
+            <p>Mirror of 38</p>
+          </td>
+        </tr>
+        <tr>
+          <th>37</th>
+          <td><img src="assets/oll37.svg" width="105" height="105"/></td>
+          <td>
+            <p>(F R' F' R) (U R U' R')</p>
+            <p>F R U' R' U' R U R' F</p>
+          </td>
+          <td>
+            <p>Second alg is diag OLLCP</p>
+            <p>Both are inverses of 33</p>
+          </td>
+        </tr>
+        <tr>
+          <th>38</th>
+          <td><img src="assets/oll38.svg" width="105" height="105"/></td>
+          <td>
+            <p>R U R' U R U' R' U' (R' F R F')</p>
+          </td>
+          <td>
+            <p>Mirror of 36</p>
+          </td>
+        </tr>
+        <tr>
+          <th>39</th>
+          <td><img src="assets/oll39.svg" width="105" height="105"/></td>
+          <td>
+            <p>f' (r U r' U') (r' F r S)</p>
+          </td>
+          <td>
+            <p>Mirror inverse of 32</p>
+          </td>
+        </tr>
+        <tr>
+          <th>40</th>
+          <td><img src="assets/oll40.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' F R U R' U' F' U R</p>
+          </td>
+          <td>
+            <p>Inverse of 31</p>
+          </td>
+        </tr>
+        <tr>
+          <th>41</th>
+          <td><img src="assets/oll41.svg" width="105" height="105"/></td>
+          <td>
+            <p>(R U R' U R U2' R') F (R U R' U') F'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>42</th>
+          <td><img src="assets/oll42.svg" width="105" height="105"/></td>
+          <td>
+            <p>(F R' F' R) U2 R' U' R2 U' R2' U2' R</p>
+          </td>
+        </tr>
+        <tr>
+          <th>43</th>
+          <td><img src="assets/oll43.svg" width="105" height="105"/></td>
+          <td>
+            <p>F' (U' L' U L) F</p>
+            <p>(U') R' U' (F' U F) R</p>
+            <p>(U2) f' (L' U' L U) f</p>
+          </td>
+        </tr>
+        <tr>
+          <th>44</th>
+          <td><img src="assets/oll44.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (U R U' R') F'</p>
+            <p>(U2) f (R U R' U') f'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>45</th>
+          <td><img src="assets/oll45.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (R U R' U') F'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>46</th>
+          <td><img src="assets/oll46.svg" width="105" height="105"/></td>
+          <td>
+            <p>R' U' R' F R F' U R</p>
+          </td>
+        </tr>
+        <tr>
+          <th>47</th>
+          <td><img src="assets/oll47.svg" width="105" height="105"/></td>
+          <td>
+            <p>(F R' F' R) U2 (R U' R' U) R U2' R'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>48</th>
+          <td><img src="assets/oll48.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (R U R' U')2 F'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>49</th>
+          <td><img src="assets/oll49.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U' r2' U r2 U r2' U' r</p>
+          </td>
+        </tr>
+        <tr>
+          <th>50</th>
+          <td><img src="assets/oll50.svg" width="105" height="105"/></td>
+          <td>
+            <p>l' U l2 U' l2' U' l2 U l'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>51</th>
+          <td><img src="assets/oll51.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (U R U' R')2 F'</p>
+            <p>(U2) f (R U R' U')2 f'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>52</th>
+          <td><img src="assets/oll52.svg" width="105" height="105"/></td>
+          <td>
+            <p>F (U R U' R2') F' R (U2 R U2' R')</p>
+          </td>
+          <td>
+            <p>Same as 13 except the last two U moves are U2</p>
+          </td>
+        </tr>
+        <tr>
+          <th>53</th>
+          <td><img src="assets/oll53.svg" width="105" height="105"/></td>
+          <td>
+            <p>l' U' L U' (L' U L U') L' U2 l</p>
+          </td>
+        </tr>
+        <tr>
+          <th>54</th>
+          <td><img src="assets/oll54.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U R' U (R U' R' U) R U2' r'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>55</th>
+          <td><img src="assets/oll55.svg" width="105" height="105"/></td>
+          <td>
+            <p>r U2' (R2' F R F') U2 (r' F R F')</p>
+            <p>(U) R' F R U R U' R2' F R2 U' R' U R U R'</p>
+          </td>
+          <td>
+            <p>Primary alg is same as 1 but with wide moves</p>
+            <p>Second alg is OLLCP</p>
+          </td>
+        </tr>
+        <tr>
+          <th>56</th>
+          <td><img src="assets/oll56.svg" width="105" height="105"/></td>
+          <td>
+            <p>L F L' (U R U' R')2 L F' L'</p>
+          </td>
+        </tr>
+        <tr>
+          <th>57</th>
+          <td><img src="assets/oll57.svg" width="105" height="105"/></td>
+          <td>
+            <p>S (R' F R) S' (R' F' R)</p>
+            <p>(U) (R U R' U') M' (U R U' r')</p>
+          </td>
+          <td>
+            <p>First alg preserves block on back</p>
+            <p>Second alg preserves block on left</p>
+            <p>Both are inverses of 28</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

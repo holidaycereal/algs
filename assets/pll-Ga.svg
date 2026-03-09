@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="210">
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="25" y="25" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="80" y="25" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="135" y="25" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="25" y="80" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="80" y="80" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="135" y="80" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="25" y="135" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="80" y="135" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="50" x="135" y="135" fill="#ffff00"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="25" y="5" fill="#31c950"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="80" y="5" fill="#1447e6"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="135" y="5" fill="#c11007"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="190" y="25" fill="#1447e6"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="190" y="80" fill="#ff8c00"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="190" y="135" fill="#31c950"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="25" y="190" fill="#1447e6"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="80" y="190" fill="#c11007"/>
+  <rect stroke="black" stroke-width="1" width="50" height="15" x="135" y="190" fill="#c11007"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="5" y="25" fill="#ff8c00"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="5" y="80" fill="#31c950"/>
+  <rect stroke="black" stroke-width="1" width="15" height="50" x="5" y="135" fill="#ff8c00"/>
+</svg>

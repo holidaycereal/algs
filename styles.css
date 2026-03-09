@@ -1,0 +1,31 @@
+*{
+  background-color: #f6f6f6;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 10px;
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+/* Algs column */
+td:nth-child(3) {
+  font-family: LMRoman8, serif;
+  vertical-align: top;
+  line-height: 1.2em;
+}
+
+/* Notes column */
+td:nth-child(4) {
+  vertical-align: top;
+  line-height: 1.2em;
+}
