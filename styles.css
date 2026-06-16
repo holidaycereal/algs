@@ -24,8 +24,13 @@ td:nth-child(3) {
   line-height: 1.2em;
 }
 
+th.oll-algs {
+  width: 300px;
+}
+
 /* Notes column */
 td:nth-child(4) {
   vertical-align: top;
   line-height: 1.2em;
+  font-size: 10pt;
 }
