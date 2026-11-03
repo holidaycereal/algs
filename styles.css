@@ -1,16 +1,42 @@
-*{
-  background-color: #f6f6f6;
+@font-face { font-family: "Computer Modern Serif"; font-style: normal; font-weight: normal; font-display: swap; src: url("fonts/CMUSerif-Roman.woff2"); }
+@font-face { font-family: "Computer Modern Serif"; font-style: normal; font-weight: bold; font-display: swap; src: url("fonts/CMUSerif-Bold.woff2"); }
+@font-face { font-family: "Computer Modern Serif"; font-style: italic; font-weight: normal; font-display: swap; src: url("fonts/CMUSerif-Italic.woff2"); }
+@font-face { font-family: "Computer Modern Serif"; font-style: italic; font-weight: bold; font-display: swap; src: url("fonts/CMUSerif-BoldItalic.woff2"); }
+@font-face { font-family: "Computer Modern Sans"; font-style: normal; font-weight: normal; font-display: swap; src: url("fonts/CMUSansSerif.woff2"); }
+@font-face { font-family: "Computer Modern Sans"; font-style: normal; font-weight: bold; font-display: swap; src: url("fonts/CMUSansSerif-Bold.woff2"); }
+@font-face { font-family: "Computer Modern Sans"; font-style: italic; font-weight: normal; font-display: swap; src: url("fonts/CMUSansSerif-Oblique.woff2"); }
+@font-face { font-family: "Computer Modern Sans"; font-style: italic; font-weight: bold; font-display: swap; src: url("fonts/CMUSansSerif-BoldOblique.woff2"); }
+
+@media print {
+  /* Prevent table rows from breaking across pages */
+  tr, td, th {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Don't repeat table headers on each page */
+  thead {
+    display: table-row-group;
+  }
 }
 
 table {
+  font-family: "Computer Modern Sans", sans-serif;
   border-collapse: collapse;
   border: 1px solid black;
 }
 
-th,
-td {
+tr {
+  border: 1px solid black;
+}
+
+th, td {
   border: 1px solid black;
   padding: 8px 10px;
+}
+
+h1, p {
+  font-family: "Computer Modern Sans", sans-serif;
 }
 
 p {
@@ -19,9 +45,12 @@ p {
 
 /* Algs column */
 td:nth-child(3) {
-  font-family: LMRoman8, serif;
   vertical-align: top;
   line-height: 1.2em;
+}
+
+td:nth-child(3) p {
+  font-family: "Computer Modern Serif", serif;
 }
 
 th.oll-algs {
@@ -32,5 +61,4 @@ th.oll-algs {
 td:nth-child(4) {
   vertical-align: top;
   line-height: 1.2em;
-  font-size: 10pt;
 }
